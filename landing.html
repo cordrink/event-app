@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/landing.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <a href="#" class="logo">MEVT</a>
+      <div class="option">
+        <ul>
+          <li><a class="item" href="#">Acceuil</a></li>
+          <li><a class="item" href="#">Type d'évenements</a></li>
+          <li><a class="item" href="#">A propos</a></li>
+          <li><a class="item" href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="account">
+        <a href="#">Connexion</a>
+        <a href="#">Inscription</a>
+      </div>
+    </nav>
+
+    <header>
+      <p class="description">
+        La solution digitale pour vos évènements :<br />
+        Plateforme événementielle <br /><span></span>
+
+        MEVT est une plateforme événementielle<br />
+        100% personnalisable pour vous <br />
+        accompagner <br />
+        dans la digitalisation de vos événements : Physiques, Virtuels et
+        Hybrides <br />
+
+        <a href="#">Demander une Demo</a>
+      </p>
+      <img src="svg/header.svg" alt="header" />
+    </header>
+
+    <section class="presentation font-1">
+      <div class="presentation-title">
+        <h3>Transformez la facon de travailler de vos équipes</h3>
+        <p>
+          Donnez a vos équipes le moyen de produire les meilleurs évènements
+          grâce a une <br />
+          meilleure visibilité sur l'avancée des taches et une meilleure
+          collaboration entre <br />
+          les équipes
+        </p>
+      </div>
+
+      <div class="presentation-container">
+        <div class="presentation-item">
+          <img src="svg/presentation1.svg" alt="presentation" />
+          <h4>planification</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <a href="#">Lire la suite</a>
+        </div>
+
+        <div class="presentation-item">
+          <img src="svg/presentation2.svg" alt="presentation" />
+          <h4>Collaboration d'equipes</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <a href="#">Lire la suite</a>
+        </div>
+
+        <div class="presentation-item">
+          <img src="svg/presentation3.svg" alt="presentation" />
+          <h4>Gestion des budgets</h4>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <a href="#">Lire la suite</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="presentation-2">
+      <img
+        src="svg/presentation4.svg"
+        class="presentation4"
+        alt="presentation"
+      />
+      <p>
+        MEVT est une plateforme web événementielle dotée <br />
+        de toutes les fonctionnalités phares pour faire de votre <br />
+        événement virtuel ou hybride un succès. <br />
+        Elle permet à vos participants de s’investir et d’interagir <br />
+        tout en favorisant le networking. <br />
+
+        La digitalisation de votre événement en fait ainsi un <br />
+        moment chaleureux, interactif et engageant. <br />
+
+        Plus de 10 fonctionnalités sont disponibles dont : <br />
+        <span> *Live Streaming *Agenda *Visio Conférence </span> <br>
+
+        et bien plus…
+      </p>
+    </section>
+
+    <script>
+      //Anime nav
+      const nav = document.querySelector("nav");
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY) {
+          nav.classList.add("anime-nav");
+        } else {
+          nav.classList.remove("anime-nav");
+        }
+      });
+    </script>
+  </body>
+</html>

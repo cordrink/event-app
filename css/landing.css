@@ -1,0 +1,177 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    transition: background 0.3s ease-in-out;
+}
+
+.font-1 {
+    background-color: #f1f1f1;
+}
+
+
+
+nav .logo {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+.anime-nav {
+    border-bottom: 2px solid #2562DC;
+    background-color: white;
+    z-index: 10000;
+}
+
+nav div ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+div ul .item {
+    padding: 5px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.account {
+    display: flex;
+    gap: 20px;
+}
+
+.account a {
+    border: 2px solid grey;
+    text-decoration: none;
+    color: black;
+    border-radius: 999px;
+    padding: 5px 10px;
+    transition: .2s ease-in-out;
+    font-weight: 600;
+}
+
+.account a:hover {
+    color: white;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    padding: 30px;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+header .description {
+    text-align: center;
+    line-height: 2;
+    width: 30%;
+    font-weight: bold;
+    min-height: 120px;
+}
+
+header .description span {
+    display: block;
+    margin: 10px auto 15px;
+    height: 3px;
+    width: 50%;
+    background-color: grey;
+}
+
+header .description a {
+    border: 1px solid grey;
+    text-decoration: none;
+    color: black;
+    border-radius: 9px;
+    padding: 5px 10px;
+    font-weight: 600;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+header img {
+    width: 40%;
+}
+
+.presentation {
+    padding: 30px;
+    height: calc(100vh - 67px);
+}
+
+.presentation .presentation-title {
+    text-align: center;
+}
+
+.presentation-title h3 {
+    margin: 40px 0 20px;
+}
+
+.presentation .presentation-container {
+    display: flex;
+    gap: 90px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.presentation-container .presentation-item {
+    border: 1px solid grey;
+    padding: 20px;
+    width: 25%;
+    border-radius: 10px;
+}
+
+.presentation-item img {
+    width: 100%;
+}
+
+.presentation-item h4 {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.presentation-item a {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    color: #2562DC;
+    font-weight: bold;
+}
+
+.presentation-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentation4 {
+    width: 45%;
+    padding: 15px 30px;
+}
+
+.presentation4 + p {
+    text-align: justify;
+    width: 40%;
+    color: black;
+    padding: 5px 10px;
+    font-weight: 600;
+    line-height: 30px;
+}
